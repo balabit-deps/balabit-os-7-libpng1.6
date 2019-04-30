@@ -1,2 +1,3 @@
 libpng-config.patch
 CVE-2018-13785.patch
+CVE-2019-7317.patch

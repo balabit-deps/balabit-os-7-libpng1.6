@@ -1,3 +1,12 @@
+libpng1.6 (1.6.34-1ubuntu0.18.04.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: use after free in png_image_free
+    - debian/patches/CVE-2019-7317.patch: call png_image_free_function
+      without guarding it with png_safe_execute in png.c.
+    - CVE-2019-7317
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 30 Apr 2019 10:56:15 -0400
+
 libpng1.6 (1.6.34-1ubuntu0.18.04.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Denial of service
